@@ -22,6 +22,12 @@ TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 
+# Bliss Optimisations
+BLISSIFY := true
+BLISS_GRAPHITE := true
+BLISS_BUILDTYPE := OFFICIAL
+BLISS_DEVELOPER := Men_in_black007
+
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_tomato-64_defconfig
 
